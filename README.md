@@ -24,17 +24,17 @@ const DemoComponent = () => {
       {permission.isUndetermined && (
         <>
           <Text>{'Permission is undetermined.'}</Text>
-          <Button title="Grant Contacts permission ?" onPress={permission.ask} />
+          <Button onPress={permission.ask} title="Grant Contacts permission ?" />
         </>
       )}
       {permission.isGranted && (
         <Text>{'Permission is granted.'}</Text>
       )}
-      {permission.denied && (
+      {permission.isDenied && (
         <Text>{'Permission is denied.'}</Text>
       )}
       {(permission.isGranted || permission.isDenied) && (
-        <Button title="Change your mind ?" onPress={permission.goToSettings} />
+        <Button onPress={permission.goToSettings} title="Change your mind ?" />
       )}
     </View>
   )
