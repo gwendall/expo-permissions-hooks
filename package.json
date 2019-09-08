@@ -1,7 +1,7 @@
 {
   "name": "expo-permissions-hooks",
-  "version": "1.0.2",
-  "description": "Use Expo permissions with hooks",
+  "version": "1.0.3",
+  "description": "Use Expo permissions through React hooks",
   "main": "src/index.js",
   "scripts": {
     "build": "npx babel src --out-dir dist",
