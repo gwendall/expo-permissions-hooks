@@ -1,7 +1,7 @@
 expo-permissions-hooks
 ======
 
-A simple way to use handle Expo permissions through react hooks
+🎉 A simple and efficient way to use handle Expo permissions through React hooks
 
 [Demo](https://expo.io/@gwendall/expo-permissions-hooks)  
 [Demo code](https://github.com/gwendall/expo-permissions-hooks-demo)  
@@ -41,7 +41,7 @@ const DemoComponent = () => {
 }
 ```
 
-That's it.
+That's it. 😎
 
 ## Options ##
 
