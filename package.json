@@ -1,0 +1,38 @@
+{
+  "name": "expo-permissions-hooks",
+  "version": "1.0.0",
+  "description": "Use Expo permissions with hooks",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwendall/expo-permissions-hooks.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "expo",
+    "permissions"
+  ],
+  "author": "Gwendall Esnault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwendall/expo-permissions-hooks/issues"
+  },
+  "homepage": "https://github.com/gwendall/expo-permissions-hooks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "dependencies": {
+    "expo": "^34.0.1",
+    "expo-intent-launcher": "^6.0.0",
+    "expo-permissions": "^6.0.0"
+  }
+}
