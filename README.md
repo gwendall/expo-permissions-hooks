@@ -50,16 +50,16 @@ const permission = usePermissions(PERMISSION)
 ```
 
 Name | Type | Description
-----|------|---- | ----
-permission | String  One of []
+---|---|---
+permission | String | One of []
 
 The function `usePermissions` expects on single parameter, the required permission.
 
 ## Methods ##
 
 Name | Type | Description
-----|------|---- | ----
-status | String  The status of the permission
+---|---|---
+status | String | The status of the permission
 isChecking | Boolean | Whether the permission is being checked
 isUndetermined | Boolean | Whether the permission is being checked
 isGranted | Boolean | Whether the permission is being checked
