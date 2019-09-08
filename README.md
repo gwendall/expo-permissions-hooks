@@ -61,9 +61,9 @@ Name | Type | Description
 ---|---|---
 status | String | The status of the permission
 isChecking | Boolean | Whether the permission is being checked
-isUndetermined | Boolean | Whether the permission is being checked
-isGranted | Boolean | Whether the permission is being checked
-isDenied | Boolean | Whether the permission is being checked
+isUndetermined | Boolean | Whether the permission has never been asked yet
+isGranted | Boolean | Whether the permission is granted
+isDenied | Boolean | Whether the permission is denied
 ask | Function | Ask the permission
 goToSettings | Function | Go to the OS' settings to change the given permission
 
