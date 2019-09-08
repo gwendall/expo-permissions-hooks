@@ -51,10 +51,9 @@ const permission = usePermissions(PERMISSION)
 
 Name | Type | Description
 ---|---|---
-permission | String | One of "AUDIO_RECORDING", "CALENDAR", "CAMERA", "CAMERA_ROLL", "CONTACTS", "LOCATION", "NOTIFICATIONS", "REMINDERS", "SYSTEM_BRIGHTNESS",
-"USER_FACING_NOTIFICATIONS"
+permission | String | One of "AUDIO_RECORDING", "CALENDAR", "CAMERA", "CAMERA_ROLL", "CONTACTS", "LOCATION", "NOTIFICATIONS", "REMINDERS", "SYSTEM_BRIGHTNESS", "USER_FACING_NOTIFICATIONS"
 
-The function `usePermissions` expects on single parameter, the required permission.
+The function `usePermissions` expects on single parameter, the required permission. For more info about expo permissions, read the [expo-permissions documentation](https://docs.expo.io/versions/latest/sdk/permissions/).
 
 ## Methods ##
 
