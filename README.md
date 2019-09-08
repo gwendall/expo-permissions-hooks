@@ -46,7 +46,7 @@ That's it.
 ## Options ##
 
 ```javascript
-const permission = usePermissions(PERMISSION)
+usePermissions(permission)
 ```
 
 Name | Type | Description
