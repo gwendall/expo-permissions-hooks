@@ -1,7 +1,7 @@
 expo-permissions-hooks
 ======
 
-A simple way to use handle Expo permissions through react hooks.
+A simple way to use handle Expo permissions through react hooks
 
 [Demo](https://expo.io/@gwendall/expo-permissions-hooks)  
 [Demo code](https://github.com/gwendall/expo-permissions-hooks-demo)  
@@ -17,27 +17,27 @@ npm install expo-permissions-hooks
 ```javascript
 import usePermissions from 'expo-permissions-hooks'
 const DemoComponent = () => {
-	const permission = usePermissions('CONTACTS')
-	return (
-		<View>
-			<Text>{`Status is ${permission.status}`}</Text>
-			{permission.isUndetermined && (
-				<>
-					<Text>{'Permission is undetermined.'}</Text>
-					<Button title="Grant Contacts permission ?" onPress={permission.ask} />
-				</>
-			)}
-			{permission.isGranted && (
-				<Text>{'Permission is granted.'}</Text>
-			)}
-			{permission.denied && (
-				<Text>{'Permission is denied.'}</Text>
-			)}
-			{(permission.isGranted || permission.isDenied) && (
-				<Button title="Change your mind ?" onPress={permission.goToSettings} />				
-			)}
-		</View>
-	)
+  const permission = usePermissions('CONTACTS')
+  return (
+    <View>
+      <Text>{`Status is ${permission.status}`}</Text>
+      {permission.isUndetermined && (
+        <>
+          <Text>{'Permission is undetermined.'}</Text>
+          <Button title="Grant Contacts permission ?" onPress={permission.ask} />
+        </>
+      )}
+      {permission.isGranted && (
+        <Text>{'Permission is granted.'}</Text>
+      )}
+      {permission.denied && (
+        <Text>{'Permission is denied.'}</Text>
+      )}
+      {(permission.isGranted || permission.isDenied) && (
+        <Button title="Change your mind ?" onPress={permission.goToSettings} />
+      )}
+    </View>
+  )
 }
 ```
 
