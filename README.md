@@ -3,8 +3,7 @@ expo-permissions-hooks
 
 🎉 A simple and efficient way to use handle Expo permissions through React hooks
 
-[Demo](https://expo.io/@gwendall/expo-permissions-hooks)  
-[Demo code](https://github.com/gwendall/expo-permissions-hooks-demo)  
+[Expo page](https://expo.io/@gwendall/expo-permissions-hooks) · [Demo code](https://github.com/gwendall/expo-permissions-hooks-demo)  
 
 ## Installation ##
 
